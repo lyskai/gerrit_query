@@ -1,3 +1,8 @@
+from lib.system import *
+PYTHON_VERSION_MAJOR = 3
+PYTHON_VERSION_MINOR = 5
+check_python_version(PYTHON_VERSION_MAJOR, PYTHON_VERSION_MINOR)
+
 import sys
 import subprocess
 import shlex
